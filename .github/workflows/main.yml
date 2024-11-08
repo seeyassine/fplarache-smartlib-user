@@ -14,8 +14,8 @@ jobs:
       - name: Code checkout
         uses: actions/checkout@v4
 
-   #   - name: Maven test
-   #     run:  Maes95/maven-action@1.1.0
+      - name: Maven test
+        run:  mvn test
 
       - name: Checkstyle
         run: mvn checkstyle:checkstyle
