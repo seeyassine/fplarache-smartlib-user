@@ -1,5 +1,5 @@
 name: user actions
-on: workflow_dispatch
+on: workflow_dispatch # changed to push for automatique
 env:
   AWS_REGION: us-east-2
   ECR_REPOSITORY: userapp
