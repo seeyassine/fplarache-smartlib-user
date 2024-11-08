@@ -16,6 +16,7 @@ jobs:
 
       - name: Maven test
         run:  mvn test
+        timeout-minutes: 10
 
       - name: Checkstyle
         run: mvn checkstyle:checkstyle
