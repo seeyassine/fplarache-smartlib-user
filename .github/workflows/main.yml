@@ -1,6 +1,6 @@
 name: User Actions
 on: 
-  workflow_dispatch # Change to `push` for automatic runs on code push
+  workflow_dispatch # Change to `push` for automatic runs on code push s
 
 env:
   AWS_REGION: us-east-2
