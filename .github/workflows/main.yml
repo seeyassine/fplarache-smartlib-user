@@ -18,7 +18,7 @@ jobs:
       -name: Checkstyle
        run: mvn checkstyle:checkstyle
 
-      #Setup java 17 to default (sonar-scaner requirement as )
+      #Setup java 17 to default (sonar-scaner requirement as )###
       -name: Set Java 17
        uses: action/setups-java@v4
        with:
